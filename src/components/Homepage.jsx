@@ -8,7 +8,7 @@ import { Cryptocurrencies, News } from '.';
 
 const { Title } = Typography; //Distructuring Title from Typography 
 const Homepage = () => {
-    const { data, isFetching } = useGetCryptosQuery(); //redux hook
+    const { data, isFetching } = useGetCryptosQuery(10); //redux hook
     const globalStats = data?.data?.stats;
     if (isFetching) return 'loading...';
     console.log(data);
