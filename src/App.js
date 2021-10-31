@@ -40,7 +40,7 @@ function App() {
         <div className='footer'>
           <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
             CryptoRank <br />
-            All rights reserved <CopyrightOutlined /> {today.getFullYear()}
+            All rights reserved Alex Muia<CopyrightOutlined /> {today.getFullYear()}
           </Typography.Title>
           <Space>
             <Link to='/'>Home</Link>
